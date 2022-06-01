@@ -1,9 +1,25 @@
+@font-face {
+    font-family: 'Pricedown';
+    src: url('fonts/pricedown.otf');
+}
+
 body{
-    background-color: #ccc;
+    background-color: rgb(142, 212, 255);
 }
 
 h1{
    text-align: center;
+   font-family: Pricedown;
+   font-size: 4rem;
+}
+
+div{
+    font-family: Pricedown;
+    font-size: 2rem;
+}
+
+span.result-score{
+    font-size: 1.5rem;
 }
 
 .selections{
